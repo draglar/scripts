@@ -1,2 +1,2 @@
 # scripts
-some scripts to remember
+some scripts for me to remember as reference
