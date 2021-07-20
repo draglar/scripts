@@ -1,0 +1,11 @@
+#!/bin/sh
+path =.config/statusbar/volume
+while true;do
+	xsetroot -name "$(
+#		bash .config/statusbar/volume "|";
+		bash .config/statusbar/nettraf "|";
+		bash .config/statusbar/battery;
+		bash .config/statusbar/clock
+		)"
+	sleep 10s
+done

@@ -1,0 +1,23 @@
+00:00:00.083866 VirtualBox GUI VM Selector Window 6.1.22 r144080 linux.amd64 (Jun 21 2021 10:09:41) release log
+00:00:00.083868 Log opened 2021-07-19T08:05:58.339919000Z
+00:00:00.083868 Build Type: release
+00:00:00.083870 OS Product: Linux
+00:00:00.083871 OS Release: 5.12.15-arch1-1
+00:00:00.083871 OS Version: #1 SMP PREEMPT Wed, 07 Jul 2021 23:35:29 +0000
+00:00:00.083886 DMI Product Name: HP Laptop 15-da0xxx
+00:00:00.083891 DMI Product Version: Type1ProductConfigId
+00:00:00.083894 Firmware type: UEFI
+00:00:00.084430 Secure Boot: Disabled
+00:00:00.084465 Host RAM: 7868MB (7.6GB) total, 7207MB (7.0GB) available
+00:00:00.084468 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.084468 Process ID: 1525
+00:00:00.084468 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.084513 Qt version: 5.15.2
+00:00:00.103089 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.445694 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 752x27 x 597x164
+00:00:00.460251 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:16.514905 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:16.549489 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:37.071096 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:01:37.084148 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:03:24.237175 GUI: UIMediumEnumerator: Medium-enumeration finished!

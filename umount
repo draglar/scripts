@@ -1,0 +1,47 @@
+#!/bin/sh
+lsblk
+echo "what do you want me to unmount" 
+read partition
+
+case "$partition" in
+	"alot") echo "Unmounting Alot"
+		umount mounts/Alot
+		echo "done"
+		;;
+	"sda7") echo "Unmounting Alot"
+		umount mounts/Alot
+		echo "done"
+		;;
+	"manjaro")
+		echo "Unmounting Manjaro"
+		umount mounts/Manjaro
+		echo "done"
+		;;
+	"sda8") echo "Unmounting Manjaro"
+		umount mounts/Manjaro
+		echo "done"
+		;;
+	"swap") echo "Unounting swap"
+		swapoff -a
+		echo "done"
+		;;
+	"sda9") echo "Unmounting swap to htop"
+		swapon -a
+		htop
+		;;
+	"usb")	echo "unmounting Usb"
+		umount mounts/Usb
+		echo "done"
+		;;
+	"xtra") echo "Unmounting Xtra"
+		umount mounts/Xtra
+		echo "done"
+		;;
+	#"alot") echo "/dev/sda7 on mounts/Alot";;
+	#"manjaro") echo "dev/sda8 on mounts/Manjaro"
+	#"usb") echo "Usb on mounts/Usb";;
+esac
+
+#umount mounts/Alot
+#umount mounts/Usb
+#swapoff /dev/sda9`

@@ -1,0 +1,181 @@
+00:00:00.026444 main     VirtualBox XPCOM Server 6.1.22 r144080 linux.amd64 (Jun 21 2021 10:09:41) release log
+00:00:00.026451 main     Log opened 2021-07-19T08:03:16.556520000Z
+00:00:00.026453 main     Build Type: release
+00:00:00.026459 main     OS Product: Linux
+00:00:00.026462 main     OS Release: 5.12.15-arch1-1
+00:00:00.026465 main     OS Version: #1 SMP PREEMPT Wed, 07 Jul 2021 23:35:29 +0000
+00:00:00.026513 main     DMI Product Name: HP Laptop 15-da0xxx
+00:00:00.026539 main     DMI Product Version: Type1ProductConfigId
+00:00:00.026549 main     Firmware type: UEFI
+00:00:00.028648 main     Secure Boot: Disabled
+00:00:00.028774 main     Host RAM: 7868MB (7.6GB) total, 7656MB (7.4GB) available
+00:00:00.028783 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.028785 main     Process ID: 1169
+00:00:00.028786 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.032664 main     IPC socket path: /tmp/.vbox-eyan-ipc/ipcd
+00:00:00.188257 nspr-2   VirtualBox: object creation starts
+00:00:00.188468 nspr-2   Home directory: '/home/eyan/.config/VirtualBox'
+00:00:00.196639 nspr-2   Loading settings file "/home/eyan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.260754 nspr-2   Successfully initialised host USB using sysfs
+00:00:00.298702 nspr-2   HostDnsMonitor: initializing
+00:00:00.299413 nspr-2   HostDnsMonitor: updating information
+00:00:00.299440 nspr-2   HostDnsMonitor: unchanged
+00:00:04.918634 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:06.020802 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Nibia/Nibia/Nibia.vbox' for reading: -102 (File not found.).
+00:00:06.020819 nspr-2   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:06.021451 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Gateway-XFCE/Whonix-Gateway-XFCE.vbox' for reading: -102 (File not found.).
+00:00:06.021463 nspr-2   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:06.021859 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Workstation-XFCE/Whonix-Workstation-XFCE.vbox' for reading: -102 (File not found.).
+00:00:06.021868 nspr-2   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:06.022239 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Arch/Arch/Arch.vbox' for reading: -102 (File not found.).
+00:00:06.022247 nspr-2   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:06.056865 nspr-2   OCI: Local config file '/home/eyan/.config/VirtualBox/oci_config' does not exist
+00:00:06.056926 nspr-2   OCI: Original config file '/home/eyan/.oci/config' does not exist
+00:00:06.056936 nspr-2   OCI: Reading profiles finished with status NS_OK
+00:00:06.056956 nspr-2   ExtPack: Created cloud provider 'OCI' (hrc=NS_OK)
+00:00:06.057012 nspr-2   VirtualBox: object created
+00:00:08.364975 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Nibia/Nibia/Nibia.vbox' for reading: -102 (File not found.).
+00:00:08.364992 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:08.366516 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Nibia/Nibia/Nibia.vbox' for reading: -102 (File not found.).
+00:00:08.366530 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:08.370455 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Nibia/Nibia/Nibia.vbox' for reading: -102 (File not found.).
+00:00:08.370502 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:08.378956 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Gateway-XFCE/Whonix-Gateway-XFCE.vbox' for reading: -102 (File not found.).
+00:00:08.378960 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:08.379504 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Gateway-XFCE/Whonix-Gateway-XFCE.vbox' for reading: -102 (File not found.).
+00:00:08.379507 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:08.380380 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Gateway-XFCE/Whonix-Gateway-XFCE.vbox' for reading: -102 (File not found.).
+00:00:08.380382 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:08.381010 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Workstation-XFCE/Whonix-Workstation-XFCE.vbox' for reading: -102 (File not found.).
+00:00:08.381013 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:08.381237 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Workstation-XFCE/Whonix-Workstation-XFCE.vbox' for reading: -102 (File not found.).
+00:00:08.381239 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:08.381647 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Workstation-XFCE/Whonix-Workstation-XFCE.vbox' for reading: -102 (File not found.).
+00:00:08.381649 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:08.382079 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Arch/Arch/Arch.vbox' for reading: -102 (File not found.).
+00:00:08.382081 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:08.382269 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Arch/Arch/Arch.vbox' for reading: -102 (File not found.).
+00:00:08.382271 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:08.382611 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Arch/Arch/Arch.vbox' for reading: -102 (File not found.).
+00:00:08.382613 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:17.867717 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:17.881941 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Nibia/Nibia/Nibia.vbox' for reading: -102 (File not found.).
+00:00:17.881955 nspr-2   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:17.891724 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Nibia/Nibia/Nibia.vbox' for reading: -102 (File not found.).
+00:00:17.891740 nspr-2   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:18.046277 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Nibia/Nibia/Nibia.vbox' for reading: -102 (File not found.).
+00:00:18.046281 nspr-2   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:18.046625 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:18.047819 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:18.048714 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:18.049105 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:18.050728 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Nibia/Nibia/Nibia.vbox' for reading: -102 (File not found.).
+00:00:18.050731 nspr-2   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:18.052385 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Nibia/Nibia/Nibia.vbox' for reading: -102 (File not found.).
+00:00:18.052389 nspr-2   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:18.053619 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Nibia/Nibia/Nibia.vbox' for reading: -102 (File not found.).
+00:00:18.053622 nspr-2   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:18.054809 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Nibia/Nibia/Nibia.vbox' for reading: -102 (File not found.).
+00:00:18.054812 nspr-2   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:18.057461 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Nibia/Nibia/Nibia.vbox' for reading: -102 (File not found.).
+00:00:18.057465 nspr-2   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:18.059513 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Nibia/Nibia/Nibia.vbox' for reading: -102 (File not found.).
+00:00:18.059517 nspr-2   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:22.724340 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:22.730437 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Gateway-XFCE/Whonix-Gateway-XFCE.vbox' for reading: -102 (File not found.).
+00:00:22.730452 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:22.732211 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Gateway-XFCE/Whonix-Gateway-XFCE.vbox' for reading: -102 (File not found.).
+00:00:22.732225 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:22.733822 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Gateway-XFCE/Whonix-Gateway-XFCE.vbox' for reading: -102 (File not found.).
+00:00:22.733838 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:22.734877 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:22.738696 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:22.741696 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Gateway-XFCE/Whonix-Gateway-XFCE.vbox' for reading: -102 (File not found.).
+00:00:22.741709 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:22.742855 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Gateway-XFCE/Whonix-Gateway-XFCE.vbox' for reading: -102 (File not found.).
+00:00:22.742869 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:22.744192 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Gateway-XFCE/Whonix-Gateway-XFCE.vbox' for reading: -102 (File not found.).
+00:00:22.744204 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:22.745464 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Gateway-XFCE/Whonix-Gateway-XFCE.vbox' for reading: -102 (File not found.).
+00:00:22.745474 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:22.746678 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Gateway-XFCE/Whonix-Gateway-XFCE.vbox' for reading: -102 (File not found.).
+00:00:22.746688 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:22.748126 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Gateway-XFCE/Whonix-Gateway-XFCE.vbox' for reading: -102 (File not found.).
+00:00:22.748140 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:23.771574 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:23.777329 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Workstation-XFCE/Whonix-Workstation-XFCE.vbox' for reading: -102 (File not found.).
+00:00:23.777362 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:23.778839 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Workstation-XFCE/Whonix-Workstation-XFCE.vbox' for reading: -102 (File not found.).
+00:00:23.778850 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:23.780264 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Workstation-XFCE/Whonix-Workstation-XFCE.vbox' for reading: -102 (File not found.).
+00:00:23.780275 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:23.781351 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:23.785862 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:23.788862 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Workstation-XFCE/Whonix-Workstation-XFCE.vbox' for reading: -102 (File not found.).
+00:00:23.788874 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:23.789919 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Workstation-XFCE/Whonix-Workstation-XFCE.vbox' for reading: -102 (File not found.).
+00:00:23.789929 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:23.791232 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Workstation-XFCE/Whonix-Workstation-XFCE.vbox' for reading: -102 (File not found.).
+00:00:23.791241 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:23.792630 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Workstation-XFCE/Whonix-Workstation-XFCE.vbox' for reading: -102 (File not found.).
+00:00:23.792639 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:23.793964 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Workstation-XFCE/Whonix-Workstation-XFCE.vbox' for reading: -102 (File not found.).
+00:00:23.793973 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:23.795370 nspr-3   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Workstation-XFCE/Whonix-Workstation-XFCE.vbox' for reading: -102 (File not found.).
+00:00:23.795379 nspr-3   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:24.593705 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:24.599428 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Arch/Arch/Arch.vbox' for reading: -102 (File not found.).
+00:00:24.599444 nspr-2   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:24.602331 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Arch/Arch/Arch.vbox' for reading: -102 (File not found.).
+00:00:24.602344 nspr-2   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:24.603947 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Arch/Arch/Arch.vbox' for reading: -102 (File not found.).
+00:00:24.603961 nspr-2   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:24.605036 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:24.610479 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:24.616048 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Arch/Arch/Arch.vbox' for reading: -102 (File not found.).
+00:00:24.616062 nspr-2   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:24.618476 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Arch/Arch/Arch.vbox' for reading: -102 (File not found.).
+00:00:24.618488 nspr-2   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:24.619829 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Arch/Arch/Arch.vbox' for reading: -102 (File not found.).
+00:00:24.619839 nspr-2   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:24.621234 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Arch/Arch/Arch.vbox' for reading: -102 (File not found.).
+00:00:24.621244 nspr-2   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:24.622625 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Arch/Arch/Arch.vbox' for reading: -102 (File not found.).
+00:00:24.622633 nspr-2   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:24.624018 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={Runtime error opening '/home/eyan/mounts/Alot/Virtual/Arch/Arch/Arch.vbox' for reading: -102 (File not found.).
+00:00:24.624026 nspr-2   /build/virtualbox/src/VirtualBox-6.1.22/src/VBox/Main/src-server/MachineImpl.cpp[754] (nsresult Machine::i_registeredInit())}, preserve=false aResultDetail=0
+00:00:44.543028 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:44.769000 nspr-3   Loading settings file "/home/eyan/mounts/Alot/Virtual/nix/Whonix-Workstation-XFCE/Whonix-Workstation-XFCE.vbox" with version "1.15-linux"
+00:00:45.313075 nspr-2   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:45.426896 nspr-2   Loading settings file "/home/eyan/mounts/Alot/Virtual/nix/Whonix-Gateway-XFCE/Whonix-Gateway-XFCE.vbox" with version "1.15-linux"
+00:00:45.960308 nspr-5   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:46.034830 nspr-5   Loading settings file "/home/eyan/mounts/Alot/Virtual/Nibia/Nibia/Nibia.vbox" with version "1.16-linux"
+00:00:47.058024 nspr-3   ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={MachineWrap} aText={The object functionality is limited}, preserve=false aResultDetail=0
+00:00:47.182600 nspr-3   Loading settings file "/home/eyan/mounts/Alot/Virtual/Arch/Arch/Arch.vbox" with version "1.16-linux"
+00:00:49.961392 nspr-2   Launched VM: 4026544224 pid: 1283 (0x503) frontend: GUI/Qt name: Nibia
+00:00:53.468336 nspr-2   Load [/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxHostWebcam.so] vrc=VINF_SUCCESS
+00:00:53.766079 nspr-2   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:03:52.334065 nspr-2   Saving settings file "/home/eyan/mounts/Alot/Virtual/Nibia/Nibia/Nibia.vbox" with version "1.16-linux"
+00:04:13.107616 nspr-3   Saving settings file "/home/eyan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:04:16.121900 nspr-8   Saving settings file "/home/eyan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:04:18.343173 nspr-3   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={No storage device attached to device slot 0 on port 0 of controller 'SATA'}, preserve=false aResultDetail=0
+00:04:18.343884 nspr-8   Saving settings file "/home/eyan/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:04:18.370394 nspr-3   Saving settings file "/home/eyan/mounts/Alot/Virtual/Nibia/Nibia/Nibia.vbox" with version "1.16-linux"
+00:04:22.954261 nspr-2   Launched VM: 4094438016 pid: 1726 (0x6be) frontend: GUI/Qt name: Nibia
+00:04:23.604120 nspr-3   Load [/usr/lib/virtualbox/ExtensionPacks/Oracle_VM_VirtualBox_Extension_Pack/linux.amd64/VBoxHostWebcam.so] vrc=VINF_SUCCESS
+00:04:23.753014 nspr-5   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:06:05.820874 nspr-2   Saving settings file "/home/eyan/mounts/Alot/Virtual/Nibia/Nibia/Nibia.vbox" with version "1.16-linux"
+00:11:34.144747 nspr-8   Saving settings file "/home/eyan/mounts/Alot/Virtual/Nibia/Nibia/Nibia.vbox" with version "1.16-linux"
+00:12:39.521841 main     VirtualBox: object deletion starts
+00:12:39.521996 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/eyan/mounts/Alot/Virtual/Nibia/Nibia.vmdk' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:12:39.522368 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Gateway-XFCE/Whonix-XFCE-15.0.1.7.3-disk001.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:12:39.522641 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/eyan/mounts/Alot/Virtual/nix/Whonix-Workstation-XFCE/Whonix-XFCE-15.0.1.7.3-disk002.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:12:39.522867 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/eyan/mounts/Alot/Virtual/Arch/Arch/Snapshots/{d796526c-486a-4975-ade5-b720bbb0c674}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:12:39.522901 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/eyan/mounts/Alot/Virtual/Arch/Arch/Snapshots/{9e1a2bfd-6fd1-4cf8-bb8b-15a8ee01af8e}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:12:39.522925 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/eyan/mounts/Alot/Virtual/Arch/Arch/Snapshots/{ac7b8e31-98d6-4966-ba49-268cc73f8d1c}.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:12:39.522947 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/home/eyan/mounts/Alot/Virtual/Arch/Arch/Arch.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:12:39.524190 main     HostDnsMonitor: shutting down ...
+00:12:39.537475 main     HostDnsMonitor: shut down
+00:12:39.695747 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:12:44.550918 main     {00007f0bf40163e0} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:12:44.553481 main     VirtualBox: object deleted
