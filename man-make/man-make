@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ponythink 'what will the name of the man page be ?'
+echo "what will the name of the man page be ?"
 read manname
 
 echo "# Name: 
